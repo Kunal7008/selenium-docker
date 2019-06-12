@@ -1,4 +1,4 @@
-FROM openjdk:8u212-jre-alpine3.8
+FROM openjdk:8
 
 WORKDIR /usr/share/udemy
 ADD target/selenium-docker.jar           selenium-docker.jar
